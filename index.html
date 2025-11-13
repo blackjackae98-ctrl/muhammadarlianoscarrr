@@ -7,25 +7,30 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.11.2/build/spline-viewer.js"></script>
 </head>
 <body>
 
+    <div id="dragon">
+        <spline-viewer url="https://prod.spline.design/vvXAnloXvcsEkLYa/scene.splinecode"></spline-viewer>
+    </div>
+
     <header class="main-header">
         <div class="logo">Muhammad Arlian Oscar<span class="neon-text">.dev</span></div>
-        
-               <nav id="main-nav">
+
+        <nav id="main-nav">
             <a href="#about">Tentang</a>
             <a href="#skills">Skills</a>
             <a href="#projects">Proyek</a>
             <a href="#contact" class="btn-nav">Kontak</a>
         </nav>
 
-               <button id="hamburger-btn" aria-label="Toggle menu" aria-expanded="false">
+        <button id="hamburger-btn" aria-label="Toggle menu" aria-expanded="false">
             <i class="fas fa-bars"></i>
         </button>
     </header>
 
-             <section id="hero" class="hero-section">
+    <section id="hero" class="hero-section">
         <div class="hero-content">
             <img src="download.jpg" alt="Foto Profil Muhammad Arlian Oscar" class="profile-photo">
             <p class="greeting">Halo Dunia, Saya</p>
@@ -44,15 +49,20 @@
     <section id="about" class="content-section about-section">
         <h2 class="section-title">01. Tentang Saya</h2>
         <div class="about-grid">
-            <p>Saya adalah Software Developer yang bersemangat dalam membangun solusi digital yang efisien dan *user-friendly*. Berpengalaman dalam stack **MERN (MongoDB, Express, React, Node.js)** dan fokus pada Clean Code.</p>
-            <p>Saya percaya bahwa kode yang baik adalah fondasi dari produk yang hebat. Di waktu luang, saya sering bereksperimen dengan teknologi baru dan berkontribusi pada proyek *open source*.</p>
+            <p>"Saya Muhammad Arlian Oscar, seorang mahasiswa semester 3 di program studi Teknologi Informasi,
+            Universitas Teknokrat Indonesia. Saat ini, saya secara aktif mendalami dua bidang yang saling melengkapi: 
+            Web Development dan Cyber Security.</p>
+            <p>Saya memiliki antusiasme besar dalam menciptakan solusi web yang fungsional dan dinamis (Web Development), 
+            namun saya juga sangat sadar bahwa di era digital ini, 'membangun' saja tidak cukup. Minat saya pada Cyber Security 
+            didorong oleh keinginan untuk memahami cara 'melindungi' apa yang telah dibangun, mengamankan data, dan mengantisipasi ancaman. 
+            Saya percaya bahwa pengembang modern harus memiliki pola pikir keamanan, dan saya bersemangat untuk membangun fondasi yang kuat di kedua area tersebut."</p>
         </div>
     </section>
     
     <section id="skills" class="content-section skills-section">
         <h2 class="section-title">02. Skills & Tools</h2>
         <div class="skills-grid">
-                       <div class="skill-category fade-in">
+            <div class="skill-category fade-in">
                 <h3><i class="fas fa-code"></i> Frontend</h3>
                 <ul>
                     <li>JavaScript (ES6+)</li>
@@ -60,7 +70,7 @@
                     <li>HTML5 & CSS3 (Sass, Tailwind CSS)</li>
                 </ul>
             </div>
-                       <div class="skill-category fade-in">
+            <div class="skill-category fade-in">
                 <h3><i class="fas fa-server"></i> Backend</h3>
                 <ul>
                     <li>Node.js / Express</li>
@@ -68,7 +78,7 @@
                     <li>RESTful APIs</li>
                 </ul>
             </div>
-                       <div class="skill-category fade-in">
+            <div class="skill-category fade-in">
                 <h3><i class="fas fa-database"></i> Database & Tools</h3>
                 <ul>
                     <li>MongoDB, PostgreSQL</li>
@@ -82,10 +92,10 @@
     <section id="projects" class="content-section projects-section">
         <h2 class="section-title">03. Proyek Pilihan</h2>
         <div class="project-grid">
-            
-                       <div class="project-card fade-in">
+            <div class="project-card fade-in">
                 <h3>Sistem E-Commerce Kustom</h3>
-                <p>Platform toko online responsif dengan fitur *cart* dan integrasi pembayaran. Fokus pada skalabilitas dan performa cepat.</p>
+                <p>Platform toko online responsif dengan fitur *cart* dan integrasi pembayaran. 
+                Fokus pada skalabilitas dan performa cepat.</p>
                 <div class="tech-stack-list">
                     <span>React</span><span>Node.js</span><span>MongoDB</span>
                 </div>
@@ -94,8 +104,7 @@
                     <a href="#" target="_blank"><i class="fab fa-github"></i> GitHub</a>
                 </div>
             </div>
-            
-                       <div class="project-card fade-in">
+            <div class="project-card fade-in">
                 <h3>Portofolio Developer Minimalis</h3>
                 <p>Website *one-page* ini dibangun dari nol untuk menampilkan keahlian dan karya secara profesional dan modern.</p>
                 <div class="tech-stack-list">
@@ -106,8 +115,7 @@
                     <a href="#" target="_blank"><i class="fab fa-github"></i> GitHub</a>
                 </div>
             </div>
-
-                       <div class="project-card fade-in">
+            <div class="project-card fade-in">
                 <h3>Aplikasi Pelacak Kebugaran</h3>
                 <p>Aplikasi mobile untuk mencatat aktivitas harian dan memantau kemajuan kebugaran pengguna.</p>
                 <div class="tech-stack-list">
@@ -118,7 +126,6 @@
                     <a href="#" target="_blank"><i class="fab fa-github"></i> GitHub</a>
                 </div>
             </div>
-
         </div>
     </section>
 
